@@ -1,0 +1,17 @@
+[package]
+name = "tonic-otel-layer"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/evilbluebeaver/tonic-otel-layer"
+description = "Layer for a Tonic gRPC server that adds an OpenTelemetry metrics support."
+keywords = ["tonic", "opentelemetry", "layer", "middleware", "metrics"]
+readme = "README.md"
+
+[dependencies]
+tonic = "0.12"
+tower = "0.5"
+pin-project = "1.1"
+thiserror = "2.0"
+opentelemetry = "0.30"
+
