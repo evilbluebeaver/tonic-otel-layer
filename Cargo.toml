@@ -9,9 +9,9 @@ keywords = ["tonic", "opentelemetry", "layer", "middleware", "metrics"]
 readme = "README.md"
 
 [dependencies]
-tonic = "0.12"
+tonic = "0.14"
 tower = "0.5"
 pin-project = "1.1"
 thiserror = "2.0"
-opentelemetry = "0.30"
+opentelemetry = "0.32"
 
